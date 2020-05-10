@@ -1,0 +1,49 @@
+﻿<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>objects and arrays</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let array=[10,20,30,40,50];
+      let a=5;
+      let b=-3;
+
+      console.log(array[4]);
+      console.log(array[a+b]);
+      array.push(2);
+      console.log(array);
+    </script>
+    <script type="text/javascript">
+      let greeting = 'Hello World';
+      let property = 'length';
+
+      console.log(greeting.length);
+
+      console.log(greeting['length']);
+
+      console.log(greeting[property]);
+
+      console.log(typeof greeting.toUpperCase());
+
+      console.log(greeting.toUpperCase());
+    </script>
+    <script type="text/javascript">
+      let person={
+        name:"Pradhumn Dave",
+        age:19,
+        sex:"M"
+      };
+
+      console.log(person);
+
+      person.email="ddave2001@gmail.com";
+
+      console.log(person.email);
+
+      console.log(Object.keys(person));
+    </script>
+      
+  </body>
+</html>
